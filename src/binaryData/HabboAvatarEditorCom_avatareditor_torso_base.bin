@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="avatareditor_torso_base" width="20" height="20" version="0.0">
+  <window>
+    <container x="5" y="5" width="370" height="300" params="0" style="0" name="torso_content" background="true">
+      <children>
+        <selector x="0" y="0" width="200" height="35" params="17" style="0" name="category_selector">
+          <children>
+            <bitmap x="6" y="0" width="47" height="35" params="17" style="0" name="tab_shirt" tags="bitmap">
+              <variables>
+                <var key="handle_bitmap_disposing" value="false" type="Boolean"/>
+                <var key="bitmap_asset_name" value="top_shirt_on" type="String"/>
+              </variables>
+            </bitmap>
+            <bitmap x="58" y="0" width="47" height="35" params="17" style="0" name="tab_accessories" tags="bitmap">
+              <variables>
+                <var key="handle_bitmap_disposing" value="false" type="Boolean"/>
+                <var key="bitmap_asset_name" value="top_accessories_on" type="String"/>
+              </variables>
+            </bitmap>
+          </children>
+        </selector>
+        <container x="3" y="35" width="330" height="250" params="16" style="0" name="grid_container"/>
+        <container x="255" y="0" width="160" height="200" params="16" style="0" name="action_container"/>
+      </children>
+    </container>
+  </window>
+</layout>

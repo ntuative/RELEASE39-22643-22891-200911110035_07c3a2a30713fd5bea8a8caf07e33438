@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="AvatarEditorGrids" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="350" height="248" params="17" style="0" name="item_container">
+      <children>      	<border x="0" y="0" width="255" height="118" params="17" style="3" color="0xf1f1f1"  >      		<children>
+		        <itemgrid_vertical x="10" y="6" width="235" height="105" params="17" style="0" name="thumbs" tags="CATEGORYNAME_ITEM_GRID">
+		          <variables>
+		            <var key="spacing" value="4" type="int"/>
+		            <var key="scale_to_fit_items" value="true" type="Boolean"/>
+		          </variables>
+		        </itemgrid_vertical>
+		        <scrollbar_vertical x="238" y="0" width="20" height="118" params="17" style="0">
+		          <variables>
+		            <var key="scrollable" value="thumbs" type="String"/>
+		          </variables>
+		        </scrollbar_vertical>
+	      </children>	    </border>      	<border x="0" y="130" width="330" height="112" params="17" style="3" color="0xf1f1f1"  >      		<children>		        <itemgrid_vertical x="10" y="6" width="310" height="100" params="17" style="0" name="colors" tags="CATEGORY_COLOUR_ITEM_GRID">
+		          <variables>
+		            <var key="spacing" value="2" type="int"/>
+		            <var key="scale_to_fit_items" value="true" type="Boolean"/>
+		          </variables>
+		        </itemgrid_vertical>
+		        <scrollbar_vertical x="313" y="0" width="20" height="112" params="17" style="0">
+		          <variables>
+		            <var key="scrollable" value="colors" type="String"/>
+		          </variables>
+		        </scrollbar_vertical>
+	      </children>	    </border>      </children>
+    </container>
+  </window>
+</layout>

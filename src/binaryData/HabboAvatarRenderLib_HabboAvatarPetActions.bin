@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<actions>
+
+	<action  id="Move" state="mv" precedence="100" main="1" geometrytype="pet" activepartset="torso" assetpartdefinition="wlk"/>
+
+	<action  id="PetSit" state="sit" presedence="200" geometrytype="pet" activepartset="body" assetpartdefinition="sit"/>
+	<action  id="PetReady" state="rdy" presedence="210" geometrytype="pet" activepartset="figure" assetpartdefinition="rdy"/>
+	<action  id="PetLieDown" state="lay" presedence="220" geometrytype="pet" activepartset="body" assetpartdefinition="lay"/>
+	<action  id="PetPlayDead" state="ded" presedence="230" geometrytype="pet" activepartset="figure" assetpartdefinition="ded"/>
+	<action  id="PetJump" state="jmp" presedence="240" geometrytype="pet" activepartset="figure" assetpartdefinition="jmp"/>
+	<action  id="PetPlay" state="pla" presedence="250" geometrytype="pet" activepartset="body" assetpartdefinition="pla"/>
+	<action  id="PetBeg" state="beg" presedence="260" geometrytype="pet" activepartset="figure" assetpartdefinition="beg"/>
+	<action  id="PetBend" state="bnd" presedence="265" geometrytype="pet" activepartset="figure" assetpartdefinition="bnd"/>
+	<action  id="PetSpecial" state="spc" presedence="270" geometrytype="pet" activepartset="body" assetpartdefinition="spc"/>
+	<action  id="PetScratch" state="scr" presedence="280" geometrytype="pet" activepartset="figure" assetpartdefinition="scr"/>
+	
+	<action  id="PetEat" state="eat" presedence="300" geometrytype="pet" activepartset="head" assetpartdefinition="eat"/>
+	<action  id="PetWaveTail" state="wave" presedence="310" geometrytype="pet" activepartset="tail" assetpartdefinition="wav"/>
+	<action  id="PetDrink" state="eat" presedence="320" geometrytype="pet" activepartset="head" assetpartdefinition="eat"/>
+	<action  id="PetSniff" state="snf" presedence="340" geometrytype="pet" activepartset="head" assetpartdefinition="snf"/>
+
+	<action  id="Gesture" state="gest" precedence="600" geometrytype="pet" activepartset="figure" assetpartdefinition="USE_PARAMETER"/>
+	<action  id="GestureSmile" state="sml" precedence="610" geometrytype="pet" activepartset="figure" assetpartdefinition="sml" lay="lsm"/>
+	<action  id="GestureSad" state="sad" precedence="611" geometrytype="pet" activepartset="figure" assetpartdefinition="sad" lay="lsa"/>
+	<action  id="GestureAngry" state="agr" precedence="612" geometrytype="pet" activepartset="figure" assetpartdefinition="agr" lay="lag"/>
+	<action  id="GestureSurprised" state="srp" precedence="613" geometrytype="pet" activepartset="head" assetpartdefinition="srp" lay="lsr"/>
+
+	<action  id="PetTalk" state="talk" presedence="400" geometrytype="pet" activepartset="head" assetpartdefinition="spk"/>
+
+	<action  id="Sleep" state="Sleep" precedence="500" geometrytype="pet" activepartset="head" assetpartdefinition="slp"/>
+
+	<action  id="Default"  state="std" precedence="1000" main="1" default="1" geometrytype="pet" activepartset="figure" assetpartdefinition="std"/>
+
+</actions>

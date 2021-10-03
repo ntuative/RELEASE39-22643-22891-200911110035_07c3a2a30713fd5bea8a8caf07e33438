@@ -1,0 +1,1 @@
+<?xml version='1.0'?><!-- Microphone FX--><animation name="fx.16">	<add id="ri" align="item" base="fx16_1" />	<frame>		<bodypart id="rightarm" action="UseItem" frame="0" />		<bodypart id="item" action="UseItem" frame="0" base="fx16_1" />	</frame></animation>

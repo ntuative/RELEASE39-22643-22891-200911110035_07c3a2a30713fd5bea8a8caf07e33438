@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="trophy_general" width="20" height="20" version="0.0">
+  <window>
+    <frame x="0" y="0" width="281" height="150" params="32769" style="0" name="widget_trophy_frame" caption="%24%7Bwidget.furni.trophy.title%7D" tags="room_widget_trophy">
+      <children>
+        <border x="0" y="0" width="269" height="118" params="16" style="0" caption="vsdvs"/>
+        <text x="20" y="12" width="229" height="60" params="16" style="0" name="greeting" caption="vsdvs">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <container x="11" y="82" width="247" height="1" params="16" style="0" caption="vsdvs" color="0xa9d3e3"/>
+        <text x="20" y="94" width="36" height="13" params="144" style="0" name="date" caption="da.te.">
+          <variables>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="auto_size" value="left" type="String"/>
+          </variables>
+        </text>
+        <text x="216" y="94" width="33" height="13" params="262288" style="0" name="name" caption="Name">
+          <variables>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="auto_size" value="right" type="String"/>
+          </variables>
+        </text>
+      </children>
+    </frame>
+  </window>
+</layout>

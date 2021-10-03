@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="inventory_badges" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="378" height="205" params="16" style="0" name="furniture_content">
+      <children>
+        <itemgrid_vertical x="5" y="25" width="190" height="115" params="17" style="0" name="inactive_items" tags="BADGE_ITEM_GRID">
+          <variables>
+            <var key="spacing" value="4" type="int"/>
+            <var key="scale_to_fit_items" value="true" type="Boolean"/>
+          </variables>
+        </itemgrid_vertical>
+        <scrollbar_vertical x="190" y="25" width="20" height="115" params="17" style="0"/>
+        <itemgrid_vertical x="227" y="25" width="140" height="114" params="17" style="0" name="active_items" tags="ACTIVE_BADGE_ITEM_GRID">
+          <variables>
+            <var key="spacing" value="4" type="int"/>
+            <var key="scale_to_fit_items" value="true" type="Boolean"/>
+          </variables>
+        </itemgrid_vertical>
+        <!--scrollbar_vertical x="355" y="25" width="20" height="115" params="17" style="0"/-->
+        <text x="70" y="7" width="65" height="15" params="16" style="0" name="myBadgesTitle" caption="%24%7Binventory.badges.inactivebadges%7D">
+          <variables>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <container x="0" y="144" width="378" height="55" params="16" style="0" name="descriptionArea">
+          <children>
+            <bitmap x="15" y="5" width="50" height="50" params="17" style="0" name="badgeDescriptionImage"/>
+            <button x="249" y="5" width="100" height="22" params="131089" style="0" name="wearBadge_button" caption="%24%7Binventory.badges.wearbadge%7D"/>            <text x="75" y="0" width="157" height="10" params="16" style="0" name="badgeName" caption="%24%7Binventory.badges.defaultdescription%7D">              <variables>                <var key="font_face" value="Volter Bold" type="String"/>                <var key="font_size" value="9" type="uint"/>                <var key="text_color" value="0" type="hex"/>                <var key="embed_fonts" value="true" type="Boolean"/>                <var key="mouse_wheel_enabled" value="true" type="Boolean"/>                <var key="word_wrap" value="false" type="Boolean"/>              </variables>            </text>
+            <text x="75" y="12" width="157" height="65" params="16" style="0" name="badgeDescriptionText" caption="%24%7Binventory.badges.defaultdescription%7D">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </container>
+        <text x="258" y="5" width="64" height="14" params="16" style="0" name="wearingTitle" caption="%24%7Binventory.badges.activebadges%7D">
+          <variables>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+          </variables>
+        </text>
+      </children>
+    </container>
+  </window>
+</layout>

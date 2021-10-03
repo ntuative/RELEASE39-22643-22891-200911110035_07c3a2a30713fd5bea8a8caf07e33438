@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="hotel_view_window" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="1330" height="1020" params="2176" style="0" name="hotel_view_background">
+      <children>
+        <container x="0" y="0" width="1330" height="1020" params="2192" style="0" name="color_layer" color="0x00000000" background="true">
+          <children>
+            <bitmap x="0" y="0" width="1330" height="1020" params="3935440" style="0" name="hotel_view_bmp" tags="bitmap">
+              <variables>
+                <var key="handle_bitmap_disposing" value="false" type="Boolean"/>
+                <var key="bitmap_asset_name" value="hotel_view" type="String"/>
+              </variables>
+            </bitmap>
+          </children>
+        </container>
+      </children>
+    </container>
+  </window>
+</layout>

@@ -1,0 +1,15 @@
+package
+{
+   import mx.core.BitmapAsset;
+   
+   [Embed(source = "/images/HabboFriendListCom_popup_arrow_left_png.png")]
+   public class HabboFriendListCom_popup_arrow_left_png extends BitmapAsset
+   {
+       
+      
+      public function HabboFriendListCom_popup_arrow_left_png()
+      {
+         super();
+      }
+   }
+}

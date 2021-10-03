@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="catalog" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="530" height="481" params="32769" style="0" name="mainContainer">
+      <children>
+        <frame x="349" y="24" width="175" height="427" params="33041" style="0" name="navigatorMain" caption="%24%7Bcatalog.title%7D">
+          <children>
+            <container x="4" y="0" width="159" height="310" params="17" style="0" name="navigationContainer" caption="Catalog" color="0xff000000" background="true">
+              <children>
+                <itemlist_vertical x="0" y="1" width="158" height="307" params="17" style="0" name="navigationList" caption="Catalog" color="0xffffffff" background="true"/>
+                <scrollbar_vertical x="141" y="1" width="20" height="307" params="17" style="0" name="navigationListScrollbar" caption="navigationListScrollbar"/>
+              </children>
+            </container>            <border x="20" y="314" width="128" height="24" params="1048593" style="2" name="clubContainer" caption="Catalog" color="0x27556a">              <children>                <bitmap x="6" y="3" width="18" height="18" params="3148816" style="0" name="clubIcon" caption="Catalog"/>                <text x="27" y="6" width="94" height="14" params="16" style="0" name="clubText" caption="%24%7Bcatalog.purse.clubdays%7D">                  <variables>                    <var key="font_face" value="Volter" type="String"/>                    <var key="font_size" value="9" type="uint"/>                    <var key="text_color" value="0xffffff" type="hex"/>                    <var key="embed_fonts" value="true" type="Boolean"/>                    <var key="underline" value="true" type="Boolean"/>                    <var key="spacing" value="0" type="Number"/>                  </variables>                </text>              </children>            </border>
+            <border x="20" y="342" width="128" height="24" params="1048593" style="2" name="creditsContainer" caption="Catalog" color="0x27556a">
+              <children>
+                <bitmap x="5" y="2" width="20" height="20" params="3148816" style="0" name="creditsIcon" caption="Catalog"/>
+                <text x="27" y="6" width="94" height="14" params="16" style="0" name="creditsText" caption="%24%7Bcatalog.purse.creditbalance%7D">
+                  <variables>
+                    <var key="font_face" value="Volter" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0xffffff" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                    <var key="underline" value="true" type="Boolean"/>
+                    <var key="spacing" value="0" type="Number"/>
+                  </variables>
+                </text>
+              </children>
+            </border>
+            <border x="20" y="370" width="128" height="24" params="1048593" style="2" name="pixelsContainer" caption="Catalog" color="0x27556a">
+              <children>
+                <bitmap x="5" y="2" width="20" height="20" params="3148816" style="0" name="pixelsIcon" caption="%24%7Bcredits%7D"/>
+                <text x="27" y="6" width="94" height="14" params="16" style="0" name="pixelsText" caption="%24%7Bcatalog.purse.pixelbalance%7D">
+                  <variables>
+                    <var key="font_face" value="Volter" type="String"/>
+                    <var key="font_size" value="9" type="uint"/>
+                    <var key="text_color" value="0xffffff" type="hex"/>
+                    <var key="embed_fonts" value="true" type="Boolean"/>
+                    <var key="underline" value="true" type="Boolean"/>
+                    <var key="spacing" value="0" type="Number"/>
+                  </variables>
+                </text>
+              </children>
+            </border>
+          </children>
+        </frame>
+        <bitmap x="0" y="0" width="360" height="481" params="273" style="0" name="layoutBackground"/>
+        <container x="6" y="37" width="339" height="416" params="16" style="0" name="layoutContainer"/>
+      </children>
+    </container>
+  </window>
+</layout>

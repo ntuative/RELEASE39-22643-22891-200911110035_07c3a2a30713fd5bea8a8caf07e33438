@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="memenu_clothes_club_promo" width="20" height="20" version="0.0">
+  <window>
+    <border x="0" y="25" width="200" height="342" params="16" style="3" color="0x666666">
+      <children>
+        <bitmap x="10" y="10" width="180" height="131" params="3932176" style="0" name="image"/>
+        <text x="10" y="148" width="180" height="40" params="16" style="0" name="title" caption="">
+          <variables>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="43" y="168" width="147" height="13" params="262161" style="0" name="more_info" caption="%24%7Bavatareditor.promo.moreinfo%7D" treshold="0">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="auto_size" value="right" type="String"/>
+            <var key="underline" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="10" y="196" width="180" height="57" params="16" style="0" name="instructions" caption="">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <container x="23" y="253" width="154" height="25" params="16" style="0" name="club_input_frame" color="0xffffffff" background="true"/>
+        <container x="24" y="254" width="152" height="23" params="16" style="0" name="club_input_frame2" color="0xff666666" background="true"/>
+        <input x="27" y="258" width="144" height="14" params="1" style="1" name="input">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="always_show_selection" value="true" type="Boolean"/>
+            <var key="border_color" value="0xffffff" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+          </variables>
+        </input>
+        <button x="23" y="286" width="156" height="25" params="131089" style="1" name="redeem" caption="%24%7Bavatareditor.promo.redeem%7D"/>
+        <text x="5" y="320" width="190" height="20" params="17" style="0" name="supported_phones" caption="%24%7Bavatareditor.promo.showphones%7D" treshold="0">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="auto_size" value="center" type="String"/>
+            <var key="underline" value="true" type="Boolean"/>
+          </variables>
+        </text>
+      </children>
+    </border>
+  </window>
+</layout>

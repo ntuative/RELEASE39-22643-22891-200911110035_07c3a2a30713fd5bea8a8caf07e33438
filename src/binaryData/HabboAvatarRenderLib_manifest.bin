@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<manifest>
+
+	<component class="com.sulake.habbo.avatar.AvatarRenderManager" version="0.0">
+		<interface iid="com.sulake.iid.IIDAvatarRenderManager" />
+		<assets>
+			
+
+			<asset mimeType="text/xml" name="dance1" />
+			<asset mimeType="text/xml" name="dance2" />
+			<asset mimeType="text/xml" name="dance3" />
+			<asset mimeType="text/xml" name="dance4" />
+			<asset mimeType="text/xml" name="fx1" />
+			<asset mimeType="text/xml" name="fx10" />
+			<asset mimeType="text/xml" name="fx11" />
+			<asset mimeType="text/xml" name="fx12" />
+			<asset mimeType="text/xml" name="fx13" />
+			<asset mimeType="text/xml" name="fx14" />
+			<asset mimeType="text/xml" name="fx15" />
+			<asset mimeType="text/xml" name="fx16" />
+			<asset mimeType="text/xml" name="fx17" />
+			<asset mimeType="text/xml" name="fx18" />
+			<asset mimeType="text/xml" name="fx19" />
+			<asset mimeType="text/xml" name="fx2" />
+			<asset mimeType="text/xml" name="fx20" />
+			<asset mimeType="text/xml" name="fx21" />
+			<asset mimeType="text/xml" name="fx22" />
+			<asset mimeType="text/xml" name="fx23" />
+			<asset mimeType="text/xml" name="fx24" />
+			<asset mimeType="text/xml" name="fx25" />
+			<asset mimeType="text/xml" name="fx26" />
+			<asset mimeType="text/xml" name="fx3" />
+			<asset mimeType="text/xml" name="fx4" />
+			<asset mimeType="text/xml" name="fx5" />
+			<asset mimeType="text/xml" name="fx6" />
+			<asset mimeType="text/xml" name="fx7" />
+			<asset mimeType="text/xml" name="fx8" />
+			<asset mimeType="text/xml" name="fx9" />
+			
+			<asset mimeType="text/xml" name="action_offset_lay" />
+			<asset mimeType="text/xml" name="action_offset_swim" />
+			<asset mimeType="text/xml" name="action_offset_float" />
+
+			<asset mimeType="text/xml" name="PartOffsetsLarge1" />
+			<asset mimeType="text/xml" name="PartOffsetsSmall1" />
+			<asset mimeType="text/xml" name="PartOffsetsLarge2" />
+			<asset mimeType="text/xml" name="PartOffsetsSmall2" />
+			
+			<asset mimeType="text/xml" name="HabboAvatarActions" />
+			<asset mimeType="text/xml" name="HabboAvatarAnimation" />
+			<asset mimeType="text/xml" name="HabboAvatarFigure" />
+			<asset mimeType="text/xml" name="HabboAvatarGeometry" />
+			<asset mimeType="text/xml" name="HabboAvatarPartSets" />
+			
+			<asset mimeType="text/xml" name="HabboAvatarPetActions" />
+			<asset mimeType="text/xml" name="HabboAvatarPetAnimation" />
+			<asset mimeType="text/xml" name="HabboAvatarPetFigure" />
+			<asset mimeType="text/xml" name="HabboAvatarPetGeometry" />
+			<asset mimeType="text/xml" name="HabboAvatarPetPartSets" />
+			
+	    	<asset mimeType="image/png" name="user_typing_png" />
+	    	<asset mimeType="image/png" name="user_typing_small_png" />
+			
+		</assets>
+	</component>
+	
+</manifest>

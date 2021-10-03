@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="chatinput_window" width="20" height="20" version="0.0">
+  <window>
+    <container x="0" y="0" width="90" height="44" params="131216" style="0" name="bubblecont" tags="chat_bubble">
+      <children>
+        <bitmap x="0" y="0" width="17" height="44" params="17" style="0" name="left"/>
+        <bitmap x="17" y="0" width="1" height="44" params="17" style="0" tag="toolbar_anchor_horizontal" name="middle"/>
+        <bitmap x="18" y="0" width="12" height="44" params="17" style="0" name="right"/>
+        <input x="0" y="11" width="72" height="24" params="1" style="0" name="chat_input" caption="${widgets.chatinput.default}">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="18" type="uint"/>
+            <var key="text_color" value="0x6f6f6f" type="uint"/>
+            <var key="always_show_selection" value="true" type="Boolean"/>
+            <var key="auto_size" value="left" type="String"/>
+            <var key="background" value="true" type="Boolean"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="max_chars" value="100" type="int"/>
+            <var key="mouse_wheel_enabled" value="true" type="Boolean"/>            <var key="focus_capturer" value="true" type="Boolean"/>
+          </variables>
+        </input>
+      </children>
+    </container>
+  </window>
+</layout>

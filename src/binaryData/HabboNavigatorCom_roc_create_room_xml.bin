@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="roc_create_room" width="20" height="20" version="0.0">
+  <window>
+    <frame x="1" y="1" width="328" height="442" params="98305" style="0" name="roc_create_room" caption="%24%7Bnavigator.createroom.title%7D">
+      <children>
+        <border x="0" y="0" width="316" height="411" params="98305" style="0" name="room_info" caption="%24%7Bnavigator.title%7D">
+          <children>
+            <text x="10" y="11" width="68" height="13" params="17" style="0" name="create_room_caption" caption="%24%7Bnavigator.roomname%7D">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0" type="uint"/>
+                <var key="auto_size" value="left" type="String"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <input x="10" y="29" width="294" height="19" params="1" style="0" name="room_name_input" caption="PH%20Room%20Name%20Info">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0" type="uint"/>
+                <var key="always_show_selection" value="true" type="Boolean"/>
+                <var key="background" value="true" type="Boolean"/>
+                <var key="border" value="true" type="Boolean"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+              </variables>
+            </input>
+            <text x="10" y="62" width="121" height="13" params="17" style="0" name="choose_layout_caption" caption="%24%7Bnavigator.createroom.chooselayoutcaption%7D">
+              <variables>
+                <var key="font_face" value="Volter Bold" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0" type="uint"/>
+                <var key="auto_size" value="left" type="String"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <container x="11" y="80" width="293" height="295" params="17" style="0" name="layouts" caption="%24%7Bnavigator.title%7D" color="0xFFcc0000">
+              <children>
+                <itemlist_vertical x="0" y="0" width="276" height="295" params="2177" style="0" name="item_list" caption="%24%7Bnavigator.title%7D" background="true"/>
+                <scrollbar_vertical x="276" y="0" width="17" height="295" params="2113" style="0" name="scroller" caption="%24%7Bnavigator.title%7D"/>
+              </children>
+            </container>
+            <button_thick x="10" y="381" width="100" height="21" params="131089" style="0" name="create_button" caption="%24%7Bnavigator.createroom.create%7D" width_min="100" width_max="100"/>
+            <button x="204" y="381" width="100" height="21" params="131089" style="0" name="back_button" caption="%24%7Bgeneric.cancel%7D" width_min="100" width_max="100"/>
+          </children>
+        </border>
+      </children>
+    </frame>
+  </window>
+</layout>

@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<actions>
+
+	<!-- Main actions -->
+	<action  id="Lay" state="lay" precedence="100" main="1" geometrytype="horizontal" activepartset="figure" assetpartdefinition="lay" prevents="fx.1,fx.2,fx.3,fx.5,fx.6,fx.14,fx.15,fx.16,fx.17,fx.18,fx.19,fx.20,fx.21,fx.22,fx.26,spk,Sleep,gest,sml,sad,agr,srp,usei,cri"/>
+	<action  id="Float" state="float" precedence="101" main="1" geometrytype="swim" activepartset="swim" assetpartdefinition="sws" prevents="fx.2,fx.3,fx.5,fx.6,fx.14,fx.15,fx.16,fx.17,fx.18,fx.19,fx.20,fx.21,fx.22,fx.23,fx.26,dance,usei,cri"/>
+	<action  id="Swim" state="swim" precedence="102" main="1" geometrytype="swim" activepartset="swim" assetpartdefinition="swm" prevents="fx.2,fx.3,fx.5,fx.6,fx.14,fx.15,fx.16,fx.17,fx.18,fx.19,fx.20,fx.21,fx.22,fx.23,fx.26,dance,usei,cri"/>
+	<action  id="Sit" state="sit" precedence="103" main="1" geometrytype="vertical" activepartset="sit" assetpartdefinition="sit" prevents="fx.2,fx.3,fx.6,fx.14,fx.15,fx.17,fx.18,fx.19,fx.20,fx.21,fx.22,dance"/>
+
+	<action  id="Wave" state="wave" precedence="205" geometrytype="vertical" activepartset="handLeft" assetpartdefinition="wav" prevents="dance"/>
+	<action  id="Sign" state="sign" precedence="210" geometrytype="vertical" activepartset="handLeft" assetpartdefinition="sig" prevents="dance"/>
+
+	<action  id="AvatarEffect" state="fx" precedence="220" geometrytype="vertical" animation="1" assetpartdefinition="std" prevents="dance">
+		<type id="5" prevents="usei,cri" />
+		<type id="16" prevents="usei,cri" />
+		<type id="26" prevents="usei,cri" />
+	</action>
+	
+	<action  id="Dance" state="dance" precedence="230" geometrytype="vertical" activepartset="figure" animation="1" assetpartdefinition="std"/>
+
+	<!-- Hand actions -->
+	<action  id="UseItem" state="usei" precedence="200" geometrytype="vertical" activepartset="handRight" assetpartdefinition="drk" prevents="dance">
+		<param id="default" value="1"/>
+		<param id="3" value="2"/>
+		<param id="4" value="3"/>
+		<param id="8" value="6"/>
+		<param id="9" value="6"/>
+		<param id="10" value="6"/>
+		<param id="11" value="6"/>
+		<param id="12" value="6"/>
+		<param id="13" value="6"/>
+		<param id="14" value="6"/>
+		<param id="15" value="6"/>
+		<param id="16" value="6"/>
+		<param id="17" value="6"/>
+		<param id="19" value="5"/>
+		<param id="20" value="75"/>
+		<param id="21" value="4"/>
+		<param id="22" value="7"/>
+		<param id="23" value="8"/>
+		<param id="24" value="667"/>
+		<param id="25" value="9"/>
+		<param id="26" value="33"/>
+		<param id="27" value="6"/>
+		<param id="28" value="42"/>
+		<param id="29" value="43"/>
+		<param id="30" value="44"/>
+		<param id="31" value="45"/>
+		<param id="32" value="45"/>
+		<param id="33" value="5"/>
+		<param id="34" value="46"/>
+		<param id="35" value="47"/>
+		<param id="36" value="50"/>
+		<param id="37" value="51"/>
+		<param id="38" value="52"/>
+		<param id="39" value="53"/>
+		<param id="40" value="54"/>
+		<param id="41" value="6"/>
+		<param id="42" value="48"/>
+		<param id="43" value="55"/>
+		<param id="44" value="56"/>
+	</action>
+	<action  id="CarryItem" state="cri" precedence="205" geometrytype="vertical" activepartset="handRight" assetpartdefinition="crr" prevents="dance">
+		<param id="default" value="1"/>
+		<param id="3" value="2"/>
+		<param id="4" value="3"/>
+		<param id="8" value="6"/>
+		<param id="9" value="6"/>
+		<param id="10" value="6"/>
+		<param id="11" value="6"/>
+		<param id="12" value="6"/>
+		<param id="13" value="6"/>
+		<param id="14" value="6"/>
+		<param id="15" value="6"/>
+		<param id="16" value="6"/>
+		<param id="17" value="6"/>
+		<param id="19" value="5"/>
+		<param id="20" value="75"/>
+		<param id="21" value="4"/>
+		<param id="22" value="7"/>
+		<param id="23" value="8"/>
+		<param id="24" value="667"/>
+		<param id="25" value="9"/>
+		<param id="26" value="33"/>
+		<param id="27" value="6"/>
+		<param id="28" value="42"/>
+		<param id="29" value="43"/>
+		<param id="30" value="44"/>
+		<param id="31" value="45"/>
+		<param id="32" value="45"/>
+		<param id="33" value="5"/>
+		<param id="34" value="46"/>
+		<param id="35" value="47"/>
+		<param id="36" value="50"/>
+		<param id="37" value="51"/>
+		<param id="38" value="52"/>
+		<param id="39" value="53"/>
+		<param id="40" value="54"/>
+		<param id="41" value="6"/>
+		<param id="42" value="48"/>
+		<param id="43" value="55"/>
+		<param id="44" value="56"/>
+	</action>
+	
+	<!-- Face actions -->
+	<action  id="Talk" state="talk" precedence="500" geometrytype="vertical" activepartset="speak" assetpartdefinition="spk" lay="lsp"/>
+	
+	<action  id="Gesture" state="gest" precedence="510" geometrytype="vertical" activepartset="gesture" assetpartdefinition="USE_PARAMETER"/>
+	<action  id="GestureSmile" state="sml" precedence="510" geometrytype="vertical" activepartset="gesture" assetpartdefinition="sml" lay="lsm"/>
+	<action  id="GestureSad" state="sad" precedence="510" geometrytype="vertical" activepartset="gesture" assetpartdefinition="sad" lay="lsa"/>
+	<action  id="GestureAngry" state="agr" precedence="510" geometrytype="vertical" activepartset="gesture" assetpartdefinition="agr" lay="lag"/>
+	<action  id="GestureSurprised" state="srp" precedence="510" geometrytype="vertical" activepartset="gesture" assetpartdefinition="srp" lay="lsr"/>
+
+	<action  id="Sleep" state="Sleep" precedence="520" geometrytype="vertical" activepartset="eye" assetpartdefinition="eyb" lay="ley"/>
+
+	<!-- Lower priority full body actions -->
+	<action  id="Move" state="mv" precedence="600" geometrytype="vertical" activepartset="walk" assetpartdefinition="wlk"/>
+	<action  id="Default" precedence="1000" state="std" main="1" default="1" geometrytype="vertical" activepartset="figure" assetpartdefinition="std"/>
+
+</actions>

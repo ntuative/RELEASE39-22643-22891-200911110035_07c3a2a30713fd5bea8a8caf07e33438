@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="thumbnail" width="20" height="20" version="0.0">
+  <window>
+    <border x="0" y="0" width="40" height="40" params="17" style="3" color="0xcccccc">
+      <children>
+        <bitmap x="0" y="0" width="40" height="40" params="16" style="0" name="bitmap" tags="BITMAP" width_min="40" width_max="40"/>        <bitmap x="0" y="0" width="16" height="16" params="16" style="0" name="recyclable_container"/>
+        <container x="33" y="2" width="6" height="15" params="393360" style="0" name="number_container" color="0xff2f6982" visible="false" background="true" tags="COUNT">
+          <children>
+            <text x="1" y="1" width="4" height="4" params="16" style="0" name="number" background="true" tags="NUMBER%2CCOUNT">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x2f6982" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="auto_size" value="right" type="String"/>
+              </variables>
+            </text>
+          </children>
+        </container>
+      </children>
+    </border>
+  </window>
+</layout>

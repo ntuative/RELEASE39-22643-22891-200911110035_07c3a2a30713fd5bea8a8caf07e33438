@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="user_view_new" width="20" height="20" version="0.0">
+  <window>
+    <border x="0" y="0" width="180" height="320" params="2064" style="1" color="0xffffff" tags="user_info">
+      <children>
+        <text x="51" y="5" width="78" height="13" params="208" style="0" name="name" caption="Avatar%20Name" color="0xffffff">
+          <variables>
+            <var key="font_face" value="Volter Bold"/>
+            <var key="font_size" value="9"/>
+            <var key="text_color" value="16777215"/>
+            <var key="auto_size" value="left"/>
+            <var key="embed_fonts" value="true"/>
+            <var key="mouse_wheel_enabled" value="true"/>
+          </variables>
+        </text>
+        <bitmap x="5" y="5" width="14" height="14" params="16" style="0" name="home_icon" color="0xffffff"/>
+        <button x="10" y="290" width="160" height="22" params="1180689" style="1" name="button_FRIEND" caption="Ask%20to%20become%20a%20friend" color="0xffffff" width_min="160" width_max="160"/>
+        <button x="10" y="261" width="60" height="22" params="1180689" style="1" name="button_RESPECT" caption="Respect" color="0xffffff"/>
+        <button x="75" y="261" width="52" height="22" params="1180689" style="1" name="button_IGNORE" caption="Ignore" color="0xffffff"/>
+        <button x="132" y="261" width="38" height="22" params="1180689" style="1" name="button_REPORT" color="0xffffff"/>
+        <container x="5" y="220" width="170" height="35" params="16" style="0" name="Tags" color="0xffffff">
+          <children>
+            <container x="5" y="0" width="160" height="30" params="16" style="0" name="tags" color="0xffffff" tags="tags"/>
+            <container x="0" y="34" width="170" height="1" params="1049616" style="0" name="separator_bottom" color="0xff2f2f2f" background="true"/>
+          </children>
+        </container>
+        <container x="5" y="175" width="170" height="60" params="2064" style="0" name="Motto" color="0xffffff">
+          <children>
+            <container x="0" y="38" width="170" height="1" params="1048592" style="0" name="separator_bottom" color="0xff2f2f2f" background="true"/>
+            <text x="3" y="1" width="160" height="35" params="16" style="0" name="motto" caption="Motto%20texts%20go%20here.%20Unfortunately%20you%20can%20only%20write%20up%20to%2080%20characters%21" color="0xffffff">
+              <variables>
+                <var key="font_face" value="Volter"/>
+                <var key="font_size" value="9"/>
+                <var key="text_color" value="16777215"/>
+                <var key="embed_fonts" value="true"/>
+                <var key="max_chars" value="60"/>
+                <var key="mouse_wheel_enabled" value="true"/>
+                <var key="word_wrap" value="true"/>
+              </variables>
+            </text>
+          </children>
+        </container>
+        <container x="5" y="23" width="170" height="150" params="16" style="0" name="Avatar_and_Badges" color="0xffffff" tags="avatar_badges">
+          <children>
+            <container x="0" y="0" width="170" height="1" params="16" style="0" name="separator_top" color="0xff2f2f2f" background="true"/>
+            <container x="70" y="0" width="1" height="150" params="2064" style="0" name="separator_middle" color="0xff2f2f2f" background="true"/>
+            <container x="0" y="149" width="170" height="1" params="1049744" style="0" name="separator_bottom" color="0xff2f2f2f" background="true"/>
+            <container x="5" y="5" width="60" height="140" params="16" style="0" name="avatar" color="0xffffff"/>
+            <container x="75" y="5" width="95" height="140" params="16" style="0" name="badges" color="0xffffff" tags="badges">
+              <children>
+                <bitmap x="5" y="5" width="40" height="40" params="0" style="1" name="badge_0" color="0xffffff"/>
+                <bitmap x="50" y="5" width="40" height="40" params="0" style="1" name="badge_1" color="0xffffff"/>
+                <bitmap x="5" y="50" width="40" height="40" params="0" style="1" name="badge_2" color="0xffffff"/>
+                <bitmap x="50" y="50" width="40" height="40" params="0" style="1" name="badge_3" color="0xffffff"/>
+                <bitmap x="5" y="100" width="40" height="40" params="0" style="1" name="badge_4" color="0xffffff"/>
+                <bitmap x="50" y="100" width="40" height="40" params="0" style="1" name="badge_group" color="0xffffff"/>
+              </children>
+            </container>
+          </children>
+        </container>
+      </children>
+    </border>
+  </window>
+</layout>

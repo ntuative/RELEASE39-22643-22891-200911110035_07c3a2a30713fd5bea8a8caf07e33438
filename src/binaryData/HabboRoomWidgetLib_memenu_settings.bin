@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="memenu_effects" width="20" height="20" version="0.0">
+  <window>
+    <border x="1" y="1" width="252" height="114" params="17" style="1" name="settings_brdr">
+      <children>
+        <text x="40" y="5" width="171" height="13" params="786640" style="0" name="settings_title" caption="%24%7Bwidget.memenu.settings.title%7D">
+          <variables>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="mouse_wheel_enabled" value="true" type="Boolean"/>
+            <var key="auto_size" value="center" type="String"/>
+          </variables>
+        </text>
+        <container x="10" y="22" width="232" height="1" params="786640" style="0" name="line" color="0xff2f2f2f" background="true"/>
+        <border x="10" y="29" width="232" height="52" params="16" style="3" name="volume_grey_area" color="0x666666"/>
+        <text x="46" y="32" width="160" height="13" params="786640" style="0" name="volume_text" caption="%24%7Bwidget.memenu.settings.volume%7D">
+          <variables>
+            <var key="font_face" value="Volter" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="auto_size" value="center" type="String"/>
+          </variables>
+        </text>
+        <container x="54" y="52" width="144" height="24" params="16" style="0" name="volume_container">
+          <children>
+            <bitmap x="2" y="0" width="139" height="20" params="16" style="0" name="slider_base"/>
+            <container x="0" y="9" width="144" height="15" params="16" style="0" name="slider_movement_area">
+              <children>
+                <bitmap x="132" y="0" width="12" height="15" params="33073" style="0" name="slider_button"/>
+              </children>
+            </container>
+          </children>
+        </container>
+        <border x="16" y="47" width="29" height="30" params="17" style="3" name="sounds_off" color="0x666666">
+          <children>
+            <bitmap x="0" y="4" width="29" height="22" params="16" style="0" name="sounds_off_icon"/>
+          </children>
+        </border>
+        <border x="207" y="47" width="29" height="30" params="17" style="3" name="sounds_on" color="0x666666">
+          <children>
+            <bitmap x="0" y="4" width="29" height="22" params="16" style="0" name="sounds_on_icon"/>
+          </children>
+        </border>
+        <button x="10" y="87" width="60" height="22" params="1180721" style="1" name="back_btn" caption="Back" width_min="60" width_max="60"/>
+      </children>
+    </border>
+  </window>
+</layout>

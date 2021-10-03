@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<skin name="white_frame_skin" version="0.0">
+
+	<!-- shared variables -->
+	
+	<variables>
+		<variable key="asset" value="habbo_bitmap_skin_png" type="String" />
+	</variables>
+	
+	<!-- the following maps layouts for render states -->
+	
+	<states>
+		<state name="default" layout="frame" template="default_frame" />
+		<!-- <state name="active"  layout="frame" template="default_frame" /> -->
+		<state name="locked" layout="frame" template="locked_frame" />
+		<!-- <state name="pressed" layout="frame" template="pressed_frame" /> -->
+	</states>
+	
+	<!-- templates defines regions in bitmap asset -->
+	
+	<templates>
+		<template name="default_frame" asset="$asset">
+			<entities>
+				<entity name="top_left"      type="bitmap"><region><Rectangle x="0"  y="200"  width="13" height="13" /></region></entity>
+				<entity name="top_center"    type="bitmap"><region><Rectangle x="13" y="200"  width="1"  height="13" /></region></entity>
+				<entity name="top_right"     type="bitmap"><region><Rectangle x="14" y="200"  width="13" height="13" /></region></entity>
+				<entity name="center_left"   type="bitmap"><region><Rectangle x="0"  y="213" width="13" height="1"  /></region></entity>
+				<entity name="center_center" type="bitmap"><region><Rectangle x="13" y="213" width="1"  height="1"  /></region></entity>
+				<entity name="center_right"  type="bitmap"><region><Rectangle x="14" y="213" width="13" height="1"  /></region></entity>
+				<entity name="bottom_left"   type="bitmap"><region><Rectangle x="0"  y="214" width="13" height="13" /></region></entity>
+				<entity name="bottom_center" type="bitmap"><region><Rectangle x="13" y="214" width="1"  height="13" /></region></entity>
+				<entity name="bottom_right"  type="bitmap"><region><Rectangle x="14" y="214" width="13" height="13" /></region></entity>
+			</entities>
+		</template>
+		
+		<template name="locked_frame" asset="$asset">
+			<entities>
+				<entity name="top_left"      type="bitmap"><region><Rectangle x="29" y="200" width="13" height="13" /></region></entity>
+				<entity name="top_center"    type="bitmap"><region><Rectangle x="42" y="200" width="1"  height="13" /></region></entity>
+				<entity name="top_right"     type="bitmap"><region><Rectangle x="43" y="200" width="13" height="13" /></region></entity>
+				<entity name="center_left"   type="bitmap"><region><Rectangle x="29" y="213" width="13" height="1"  /></region></entity>
+				<entity name="center_center" type="bitmap"><region><Rectangle x="42" y="213" width="1"  height="1"  /></region></entity>
+				<entity name="center_right"  type="bitmap"><region><Rectangle x="43" y="213" width="13" height="1"  /></region></entity>
+				<entity name="bottom_left"   type="bitmap"><region><Rectangle x="29" y="214" width="13" height="13" /></region></entity>
+				<entity name="bottom_center" type="bitmap"><region><Rectangle x="42" y="214" width="1"  height="13" /></region></entity>
+				<entity name="bottom_right"  type="bitmap"><region><Rectangle x="43" y="214" width="13" height="13" /></region></entity>
+			</entities>
+		</template>
+		
+		<template name="pressed_frame" asset="$asset">
+			<entities>
+				<entity name="top_left"      type="bitmap"><region><Rectangle x="58" y="200" width="13" height="13" /></region></entity>
+				<entity name="top_center"    type="bitmap"><region><Rectangle x="71" y="200" width="1"  height="13" /></region></entity>
+				<entity name="top_right"     type="bitmap"><region><Rectangle x="72" y="200" width="13" height="13" /></region></entity>
+				<entity name="center_left"   type="bitmap"><region><Rectangle x="58" y="213" width="13" height="1"  /></region></entity>
+				<entity name="center_center" type="bitmap"><region><Rectangle x="71" y="213" width="1"  height="1"  /></region></entity>
+				<entity name="center_right"  type="bitmap"><region><Rectangle x="72" y="213" width="13" height="1"  /></region></entity>
+				<entity name="bottom_left"   type="bitmap"><region><Rectangle x="58" y="214" width="13" height="13" /></region></entity>
+				<entity name="bottom_center" type="bitmap"><region><Rectangle x="71" y="214" width="1"  height="13" /></region></entity>
+				<entity name="bottom_right"  type="bitmap"><region><Rectangle x="72" y="214" width="13" height="13" /></region></entity>
+			</entities>
+		</template>
+	</templates>
+	
+	<!-- markup for layout drawer -->
+	
+	<layouts>
+	
+		<layout name="null" transparent="true">
+			<entities>
+				<entity name="null" id="0">
+					<color>$color</color>
+					<blend>$blend</blend>
+					<region><Rectangle x="0" y="0" width="10" height="10" /></region>
+					<scale horizontal="strech" vertical="strech" />
+				</entity>
+			</entities>
+		</layout>
+		
+		<layout name="frame" transparent="true">
+			<entities>
+
+				<!-- top line -->
+	
+				<entity name="top_left" id="0">
+					<color>$color</color>
+					<blend>$blend</blend>
+					<region><Rectangle x="0" y="0" width="13" height="13" /></region>
+					<scale horizontal="fixed" vertical="fixed" />
+				</entity>
+
+				<entity name="top_center" id="0">
+					<color>$color</color>
+					<blend>$blend</blend>
+					<region><Rectangle x="13"  y="0" width="1" height="13" /></region>
+					<scale horizontal="strech" vertical="fixed" />
+				</entity>
+
+				<entity name="top_right" id="0">
+					<color>$color</color>
+					<blend>$blend</blend>
+					<region><Rectangle x="14" y="0" width="13" height="13" /></region>
+					<scale horizontal="move" vertical="fixed" />
+				</entity>
+	
+				<!-- mid line -->
+
+				<entity name="center_left" id="0">
+					<color>$color</color>
+					<blend>$blend</blend>
+					<region><Rectangle x="0" y="13" width="13" height="20" /></region>
+					<scale horizontal="fixed" vertical="strech" />
+				</entity>
+
+				<entity name="center_center" id="0">
+					<color>$color</color>
+					<blend>$blend</blend>
+					<region><Rectangle x="13" y="13" width="1" height="20" /></region>
+					<scale horizontal="strech" vertical="strech" />
+				</entity>
+
+				<entity name="center_right" id="0">
+					<color>$color</color>
+					<blend>$blend</blend>
+					<region><Rectangle x="14" y="13" width="13" height="20" /></region>
+					<scale horizontal="move" vertical="strech" />
+				</entity>
+
+				<!-- btm line -->
+
+				<entity name="bottom_left" id="0">
+					<color>$color</color>
+					<blend>$blend</blend>
+					<region><Rectangle x="0" y="33" width="13" height="13" /></region>
+					<scale horizontal="fixed" vertical="move" />
+				</entity>
+
+				<entity name="bottom_center" id="0">
+					<color>$color</color>
+					<blend>$blend</blend>
+					<region><Rectangle x="13" y="33" width="1" height="13" /></region>
+					<scale horizontal="strech" vertical="move" />
+				</entity>
+
+				<entity name="bottom_right" id="0">
+					<color>$color</color>
+					<blend>$blend</blend>
+					<region><Rectangle x="14" y="33" width="13" height="13" /></region>
+					<scale horizontal="move" vertical="move" />
+				</entity>
+
+			</entities>
+			
+			<!-- placeholders defines regions for certain child windows -->
+			
+			<placeholders>
+			
+				<placeholder name="header">
+					<scale horizontal="strech" vertical="fixed" />
+					<region><Rectangle x="7" y="6" width="13" height="14" /></region>
+				</placeholder>
+				
+				<placeholder name="content">
+					<scale horizontal="strech" vertical="strech" />
+					<region><Rectangle x="10" y="25" width="7" height="15" /></region>
+				</placeholder>
+				
+			</placeholders>
+			
+		</layout>
+	</layouts>
+</skin>

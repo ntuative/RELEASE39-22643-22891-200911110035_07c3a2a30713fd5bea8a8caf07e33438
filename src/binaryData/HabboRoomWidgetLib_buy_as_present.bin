@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="buy_as_present" width="20" height="20" version="0.0">
+  <window>
+    <frame x="0" y="0" width="300" height="250" params="32784" style="0" caption="Purchase%20item" color="0xffffff">
+      <children>
+        <border x="0" y="0" width="288" height="218" params="16" style="0" color="0xffffff">
+          <children>
+            <text x="75" y="13" width="138" height="13" params="208" style="0" name="item_costs" caption="This%20item%20costs%20money" color="0xffffff">
+              <variables>
+                <var key="font_face" value="Volter Bold"/>
+                <var key="font_size" value="9"/>
+                <var key="text_color" value="0"/>
+                <var key="auto_size" value="left"/>
+                <var key="embed_fonts" value="true"/>
+                <var key="mouse_wheel_enabled" value="true"/>
+              </variables>
+            </text>
+            <text x="65" y="35" width="156" height="13" params="786640" style="0" name="coins_left" caption="You%20have%20xx%20coins%20asdasdasd" color="0xffffff">
+              <variables>
+                <var key="font_face" value="Volter"/>
+                <var key="font_size" value="9"/>
+                <var key="text_color" value="0"/>
+                <var key="auto_size" value="left"/>
+                <var key="embed_fonts" value="true"/>
+                <var key="mouse_wheel_enabled" value="true"/>
+              </variables>
+            </text>
+            <container x="1" y="60" width="286" height="115" params="16" style="0" name="grey_box" color="0xffbdbdbd" background="true"/>
+            <button_thick x="171" y="186" width="70" height="22" params="917649" style="0" name="buy_button" caption="Buy%20it%21" color="0xffffff" tags="buy"/>
+            <button x="40" y="186" width="70" height="22" params="917649" style="0" name="cancel_button" caption="Cancel" color="0xffffff" tags="cancel" width_min="70"/>
+            <checkbox x="11" y="65" width="15" height="15" params="17" style="0" name="buy_check" color="0xffffff" tags="checkbox"/>
+            <text x="34" y="67" width="100" height="14" params="16" style="0" name="buy_as_gift" caption="Buy%20as%20gift%20for%3A" color="0xffffff" tags="buy_text">
+              <variables>
+                <var key="font_face" value="Volter Bold"/>
+                <var key="font_size" value="9"/>
+                <var key="text_color" value="0"/>
+                <var key="embed_fonts" value="true"/>
+                <var key="mouse_wheel_enabled" value="true"/>
+              </variables>
+            </text>
+            <input x="7" y="85" width="180" height="20" params="0" style="0" name="name_field" color="0xffffff">
+              <variables>
+                <var key="font_face" value="Volter"/>
+                <var key="font_size" value="9"/>
+                <var key="text_color" value="0"/>
+                <var key="always_show_selection" value="true"/>
+                <var key="background" value="true"/>
+                <var key="border" value="true"/>
+                <var key="border_color" value="6908265"/>
+                <var key="embed_fonts" value="true"/>
+                <var key="mouse_wheel_enabled" value="true"/>
+              </variables>
+            </input>
+            <text x="11" y="116" width="126" height="13" params="144" style="0" name="message_text" caption="Your%20greetings%20go%20here%3A" color="0xffffff" tags="attach_message_text">
+              <variables>
+                <var key="font_face" value="Volter"/>
+                <var key="font_size" value="9"/>
+                <var key="text_color" value="0"/>
+                <var key="auto_size" value="left"/>
+                <var key="embed_fonts" value="true"/>
+                <var key="mouse_wheel_enabled" value="true"/>
+              </variables>
+            </text>
+            <input x="7" y="132" width="273" height="34" params="0" style="0" name="message_field" color="0xffffff" tags="message_input">
+              <variables>
+                <var key="font_face" value="Times Roman"/>
+                <var key="font_size" value="12"/>
+                <var key="text_color" value="0"/>
+                <var key="always_show_selection" value="true"/>
+                <var key="background" value="true"/>
+                <var key="border" value="true"/>
+                <var key="border_color" value="6908265"/>
+                <var key="mouse_wheel_enabled" value="true"/>
+                <var key="word_wrap" value="true"/>
+              </variables>
+            </input>
+          </children>
+        </border>
+      </children>
+    </frame>
+  </window>
+</layout>
